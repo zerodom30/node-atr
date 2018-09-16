@@ -1,0 +1,28 @@
+{
+  "name": "node-atr",
+  "version": "1.0.0",
+  "description": "Simple library to calculate Average True Range without javascript precison issues",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nyc mocha test/* && nyc report --reporter=html"
+  },
+  "keywords": [
+    "TA",
+    "technical-analysis",
+    "average-true-range",
+    "atr"
+  ],
+  "author": "zerodom30",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "async": "^2.6.1",
+    "coveralls": "^3.0.2",
+    "decimal.js": "^10.0.1",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1"
+  }
+}
