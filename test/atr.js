@@ -9,17 +9,7 @@ describe('ATR Indicator', () => {
             const atr = () => new ATR('data', 14);
             assert.throws(atr, Error, 'values param should be an array');
         });
-
-        // it('should throw error on calculation', (done) => {
-        //     const atr = new ATR('data', 14);
-        //     atr.calculate((err) => {
-        //         if (err) {
-        //             assert.throws(err);
-        //             return done();
-        //         }
-        //     });
-        // });
-
+        
         it('should calculate highsMinusLows', (done) => {
             const data = [
                 { high: 48.70, low: 47.79,	close: 48.16 },
