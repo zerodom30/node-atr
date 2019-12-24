@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "async": "^2.6.3",
-    "coveralls": "^3.0.6",
+    "coveralls": "^3.0.9",
     "decimal.js": "^10.2.0",
     "mocha": "^5.2.0",
     "nyc": "^14.1.1"
