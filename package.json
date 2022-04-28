@@ -21,7 +21,7 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "async": "^2.6.3",
+    "async": "^2.6.4",
     "coveralls": "^3.0.9",
     "decimal.js": "^10.2.0",
     "mocha": "^5.2.0",
